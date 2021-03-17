@@ -1,0 +1,45 @@
+.features {
+    margin-top: 180px;
+    &__item {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+
+        .wrap--icons {
+            position: absolute;
+            left: 0;
+            background: rgba(29, 54, 93, 0.9);
+            padding: 20px;
+            border-radius: 20px 0px 0px 0px;
+            &::after {
+                content: '';
+                position: absolute;
+                top: 50px;
+                right: -15px;
+                width: 45px;
+                height: 45px;
+                z-index: -1;
+                display: block;
+                background: #AB1F44;
+                border-radius: 50%;
+            }
+            svg {
+                color: #fff;
+            }
+        }
+    }
+
+    &__text {
+        color: #A8A7A7;
+
+    }
+
+    .text {
+        color: #A8A7A7;
+
+    }
+ 
+
+
+}

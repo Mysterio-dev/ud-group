@@ -1,0 +1,17 @@
+@import './globals/header';
+@import './sections/features';
+@import './config/text';
+@import './objects/buttons';
+@import './sections/services';
+@import './sections/request';
+@import './globals/footer';
+@import './sections/news';
+@import './sections/table';
+@import './layout/media';
+@import './base/typography';
+
+
+body {
+    font-family: 'Exo 2', sans-serif!important;
+    color: #000;
+}

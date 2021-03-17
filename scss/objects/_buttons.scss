@@ -1,0 +1,43 @@
+.btn {
+    &__link {
+        color: #AB1F44;
+        font-weight: 600;
+        font-size: 20px;
+        text-decoration: none;
+        transition: .4s ease;
+
+        svg {
+            position: relative;
+            top: 0px;
+            left: 20px;
+            transition: .4s ease;
+        }
+
+        &:hover {
+            color: #ab1f44bd;
+        }
+
+        &:hover svg {
+            transform: translateX(7px);
+            transition: .4s ease;
+        }
+
+    }
+
+
+
+
+}
+
+.btn.btn {
+    &__request {
+        max-width: 200px;
+        width: 100%;
+        border-radius: 0;
+        color: #fff;
+        background-color: #284065;
+        &:hover {
+            background-color: #AB1F44; 
+        }
+    }
+}

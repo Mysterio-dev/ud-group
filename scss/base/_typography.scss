@@ -1,0 +1,36 @@
+.title__line {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    .title {
+        font-weight: 300;
+        overflow: hidden;
+        position: relative;
+        &::after {
+            content: " ";
+            height: 1px;
+            text-shadow: none;
+            position: absolute;
+            right: 0;
+            width: 30%;
+            top: 60%;
+            margin-left: 10px;
+            border-top: 1px solid #D6D6D6;
+        }
+        &::before {
+            content: " ";
+            height: 1px;
+            text-shadow: none;
+            position: absolute;
+            left: 0;
+            width: 30%;
+            top: 50%;
+            margin-right: 10px;
+            border-top: 1px solid #D6D6D6;
+        }
+    }
+
+   
+}
